@@ -11,7 +11,7 @@ https://www.kaggle.com/luigisaetta/cxr-tfrec256-may2020
 The goal for the model is different. In the Pneumonia project the goal is to identify if a CXR contains signs of Pneumonia.
 In this project the goal is to identify if the CXR contains any sign of disease. In other words here a negative is a CXR with No Findings and a positive is a CXR with any sign of disease.
 
-The ispiration for this work has been taken from the article: 
+The inspiration for this work has been taken from the article: 
 
 https://www.nature.com/articles/s41746-020-0273-z
 
@@ -24,7 +24,7 @@ https://github.com/rsummers11/CADLab/tree/master/CXR-Binary-Classifier
 * Train set is balanced (50% pneumonia), test set has a 25% of pneumonia
 * TFRecord files published in **Kaggle Dataset**: https://www.kaggle.com/luigisaetta/nih-cxr-pneu512
 * Training on **TPU** (Kaggle)
-* Using Google **EfficientNet B4**
+* Using Google **EfficientNet B2**
 * For training, it is adopted **K-fold Cross Validation** (K=5)
 * **Learning Rate Scheduler** to control variation of Learning Rate during epochs
 * **Ensemble** of K=5 models: predictions are average from prediction from each single model
@@ -33,4 +33,23 @@ https://github.com/rsummers11/CADLab/tree/master/CXR-Binary-Classifier
 * Compute best threshold, based on **F1-score**
 * Model interpretation with **GRAD-Cam**
 
+### Citations:
+@article{tang2020automated,
+    title={Automated abnormality classification of chest radiographs using deep convolutional neural networks},
+    author={Tang, Yu-Xing and Tang, You-Bao and Peng, Yifan and Yan, Ke and Bagheri, Mohammadhadi and Redd, Bernadette A and Brandon, Catherine J and Lu, Zhiyong and Han, Mei and Xiao, Jing and Summers, Ronald M},
+    journal= {npj Digital Medicine},
+    volume={3},
+    number={1},
+    pages={1--8},
+    year={2020},
+    publisher={Nature Publishing Group}
+}
+
+@inproceedings{wang2017chestx,
+    title={Chestx-ray8: Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases},
+    author={Wang, Xiaosong and Peng, Yifan and Lu, Le and Lu, Zhiyong and Bagheri, Mohammadhadi and Summers, Ronald M},
+    booktitle = {Proceedings of the IEEE conference on computer vision and pattern recognition},
+    pages={2097--2106},
+    year={2017}
+}
 
