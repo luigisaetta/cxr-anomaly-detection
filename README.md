@@ -19,6 +19,15 @@ The list of images (from NIH-CXR 14 dataset) used for train-validation and test 
 
 https://github.com/rsummers11/CADLab/tree/master/CXR-Binary-Classifier
 
+### Results obtained:
+Results obtained are very good, if compared with the article from Nature (see link above)
+
+Using a threshold = 0.5 we have obtained:
+* Accuracy on test set: 0.949
+* Sensitivity: 0.965
+* Specificity: 0.933
+* AUC: 0.986
+
 ### Features:
 * Train and Test datasets have been prepared compressing original images (PNG 1024x1024) in JPEG 512x512 and packing all in **TensorFlow TFRecord** files
 * Train set is balanced (50% pneumonia), test set has a 25% of pneumonia
