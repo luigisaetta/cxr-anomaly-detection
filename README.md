@@ -1,7 +1,7 @@
 ## CXR Anomaly Detection
 In this project I have developed a model, based on a DNN, to analyze a **Chest X-Ray** and predict if it contains signs of disease or not.
 
-The main goal of the projct has been to reproduce the resukts shown in the Nature artcile and the final result is very good, with comparable if not better Sensitivy and Specificity.
+The main goal of the projct has been to reproduce the results shown in the Nature artcile and the final result is very good, with comparable if not better Sensitivy and Specificity.
 
 ### Dataset
 The dataset used for training, validation and test is saved in Kaggle: 
@@ -11,7 +11,7 @@ The dataset contains a subset of the images coming from NIH CXR-14 dataset. The 
 
 Original images from NIH-CXR-14 dataset are PNG 1024x1024. I have compressed the images in JPEG and resized to 256x256.
 
-Compressed images hve been packed in TF TRFrecord format and can bee downloaded from the Kaggle site (see link above)
+Compressed images have been packed in TF TRFrecord format and can be downloaded from the Kaggle site (see link above)
 
 ### Differences with the project contained in the repository cxr-pneumonia
 The goal for the model is different. In the Pneumonia project the goal is to identify if a CXR contains signs of Pneumonia.
