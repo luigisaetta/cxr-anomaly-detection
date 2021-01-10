@@ -1,7 +1,7 @@
 ## CXR Anomaly Detection
 In this project I have developed a model, based on a DNN, to analyze a **Chest X-Ray** and predict if it contains signs of disease or not.
 
-The main goal of the project has been to reproduce the results shown in the **Nature** article (see below) and the final result is very good, with comparable if not better Sensitivy and Specificity.
+The main goal of the project has been to reproduce the results shown in the **Nature** article (see below) and the final result is very good, with comparable if not better Sensitivity and Specificity.
 
 ### Dataset
 The dataset used for training, validation and test is saved in Kaggle: 
