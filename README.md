@@ -3,13 +3,15 @@ In this project I have developed a model, based on a DNN, to analyze a **Chest X
 
 The main goal of the project has been to reproduce the results shown in the **Nature** article (see below) and the final result is very good, with comparable if not better Sensitivity and Specificity.
 
+The final model is an **Ensemble** of five models, developed using K-fold Cross Validation. The final prediction is the average, as in the following picture:
+
 ![ensemble](ensemble.jpg)
 
 ### Dataset
 The dataset used for training, validation and test is saved in Kaggle: 
 https://www.kaggle.com/luigisaetta/cxr-tfrec256-may2020
 
-The dataset contains a subset of the images coming from NIH CXR-14 dataset. The goal of the project is to reproduce the results showed by the Nature article (see below) and therefore I have used exactly the same set of images.
+The dataset contains a subset of the images coming from **NIH CXR-14** dataset. The goal of the project is to reproduce the results showed by the Nature article (see below) and therefore I have used exactly the same set of images.
 
 Original images from NIH-CXR-14 dataset are PNG 1024x1024. I have compressed the images in JPEG and resized to 256x256.
 
