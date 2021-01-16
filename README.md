@@ -17,11 +17,11 @@ Original images from NIH-CXR-14 dataset are PNG 1024x1024. I have compressed the
 
 Compressed images have been packed in TF TRFrecord format and can be downloaded from the Kaggle site (see link above)
 
-### Differences with the project contained in the repository cxr-pneumonia
-The goal for the model is different. In the Pneumonia project the goal is to identify if a CXR contains signs of Pneumonia.
-In this project the goal is to identify if the CXR contains any sign of disease. In other words here a negative CXR is a CXR with No Findings and a positive is a CXR with any sign of disease.
+### Differences with the Project in the repository cxr-pneumonia
+The goal for the model is different. The goal of the Pneumonia project is to identify if a CXR contains signs of Pneumonia.
+The goal of this project is to identify if the CXR contains any sign of disease. Here a negative CXR is a CXR with No Findings and a positive is a CXR with any sign of disease.
 
-The inspiration for this work has been taken from the article: 
+The inspiration for this work comes from the article: 
 
 https://www.nature.com/articles/s41746-020-0273-z
 
