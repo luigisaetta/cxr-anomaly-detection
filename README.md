@@ -15,7 +15,7 @@ The dataset contains a subset of the images coming from **NIH CXR-14** dataset. 
 
 Original images from NIH-CXR-14 dataset are PNG 1024x1024. I have compressed the images in JPEG and resized to 256x256.
 
-Compressed images have been packed in TF TRFrecord format and can be downloaded from the Kaggle site (see link above)
+Compressed images have been packed in TF TFRecord format and can be downloaded from the Kaggle site (see link above)
 
 ### Differences with the Project in the repository cxr-pneumonia
 The goal for the model is different. The goal of the Pneumonia project is to identify if a CXR contains signs of Pneumonia.
