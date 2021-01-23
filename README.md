@@ -11,7 +11,7 @@ The final model is an **Ensemble** of five models, developed using K-fold Cross 
 The dataset used for training, validation and test is saved in Kaggle: 
 https://www.kaggle.com/luigisaetta/cxr-tfrec256-may2020
 
-The dataset contains a subset of the images coming from **NIH CXR-14** dataset. The goal of the project is to reproduce the results showed by the Nature article (see below) and therefore I have used exactly the same set of images.
+The dataset contains a subset of the images coming from **NIH CXR-14** dataset. The goal of the project is to reproduce the results showed by the article from Nature (see below) and therefore I have used exactly the same set of images.
 
 Original images from NIH-CXR-14 dataset are PNG 1024x1024. I have compressed the images in JPEG and resized to 256x256.
 
